@@ -1,8 +1,8 @@
 //------------------------scroll-----------------------//
 
-function scrollTo(selector) {
+function scrollTo(scroll-to) {
 
-    const anchors = document.querySelectorAll(selector);
+    const anchors = document.querySelectorAll(scroll-to);
     for (const anchor of anchors) {
         anchor.addEventListener('click', (e) => {
             e.preventDefault();
